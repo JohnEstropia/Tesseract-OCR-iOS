@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A7F28141C7D9A1A00A01D32 /* rbtree.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A7F28131C7D9A1A00A01D32 /* rbtree.h */; };
 		73C0A7961A5932C400D823D4 /* G8Tesseract.h in Headers */ = {isa = PBXBuildFile; fileRef = 64A029D617307CD0002B12E7 /* G8Tesseract.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73C0A7971A5932C800D823D4 /* G8Tesseract.mm in Sources */ = {isa = PBXBuildFile; fileRef = 64A029D717307CD0002B12E7 /* G8Tesseract.mm */; };
 		73C0A7981A5932CC00D823D4 /* G8TesseractDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4141211F1A4C578800583ED4 /* G8TesseractDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -96,6 +97,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A7F28131C7D9A1A00A01D32 /* rbtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rbtree.h; sourceTree = "<group>"; };
 		4141211F1A4C578800583ED4 /* G8TesseractDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = G8TesseractDelegate.h; sourceTree = "<group>"; };
 		418997A71A42CC8B00D6477C /* G8Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G8Constants.h; sourceTree = "<group>"; };
 		41A95DE81A3AF39B0085093C /* G8TesseractParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G8TesseractParameters.h; sourceTree = "<group>"; };
@@ -276,6 +278,7 @@
 		64A0293F17307CCF002B12E7 /* leptonica */ = {
 			isa = PBXGroup;
 			children = (
+				2A7F28131C7D9A1A00A01D32 /* rbtree.h */,
 				84B7906B1B7B7CD100B1C726 /* allheaders.h */,
 				84B7906C1B7B7CD100B1C726 /* alltypes.h */,
 				84B7906D1B7B7CD100B1C726 /* array.h */,
@@ -407,6 +410,7 @@
 				84B790961B7B7CD100B1C726 /* gplot.h in Headers */,
 				73C0A7961A5932C400D823D4 /* G8Tesseract.h in Headers */,
 				84B790D61B7B7CE500B1C726 /* serialis.h in Headers */,
+				2A7F28141C7D9A1A00A01D32 /* rbtree.h in Headers */,
 				84B790A31B7B7CD100B1C726 /* stack.h in Headers */,
 				84B790D11B7B7CE500B1C726 /* params.h in Headers */,
 				84B7909A1B7B7CD100B1C726 /* leptwin.h in Headers */,

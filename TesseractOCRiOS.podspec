@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.source                     = { git: 'https://github.com/gali8/Tesseract-OCR-iOS.git', tag: s.version.to_s }
 
-  s.platform                   = :ios, '10.0'
+  s.platform                   = :ios, '9.0'
 
   s.ios.source_files           = 'TesseractOCR/*.{h,m,mm}', 'TesseractOCR/ios/include/**/*.h'
   s.ios.private_header_files   = 'TesseractOCR/ios/include/**/*.h'
